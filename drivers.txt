@@ -1,0 +1,4 @@
+rtl8187
+ar9271
+rt2800usb
+rtl8192cu 

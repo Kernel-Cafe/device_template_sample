@@ -1,0 +1,4 @@
+/system/bin/loadrtl
+/system/bin/unloadrtl
+/system/lib/modules/eeprom_93cx6.ko
+/system/lib/modules/rtl8187.ko

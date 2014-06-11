@@ -1,0 +1,7 @@
+/system/bin/loadrt2800
+/system/bin/unloadrt2800
+/system/lib/modules/rt2x00lib.ko
+/system/lib/modules/rt2x00usb.ko
+/system/lib/modules/rt2800lib.ko
+/system/lib/modules/rt2800usb.ko
+/system/vendor/firmware/rt2870.bin

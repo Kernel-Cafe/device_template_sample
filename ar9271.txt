@@ -1,0 +1,7 @@
+/system/bin/loadath
+/system/bin/unloadath
+/system/lib/modules/ath.ko
+/system/lib/modules/ath9k_common.ko
+/system/lib/modules/ath9k_htc.ko
+/system/lib/modules/ath9k_hw.ko
+/system/vendor/firmware/htc_9271.fw

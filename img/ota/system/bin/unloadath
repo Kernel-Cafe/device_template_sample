@@ -1,0 +1,19 @@
+#/system/bin/sh
+perm=$(id|cut -b 5)
+if [ "$perm" != "0" ];then echo "This Script Needs Root! Type : su";exit;fi
+check_unload() {
+    fname=`basename $1`
+    mname=${fname%.*}
+    result=`lsmod | grep $mname[[:space:]] | wc -l`
+    if [ $result -gt 0 ]; then
+         rmmod $mname
+    else
+         echo we  dont have $mname loaded skipping
+    fi 	
+}
+check_unload ath9k_htc
+check_unload ath9k_common
+check_unload ath9k_hw
+check_unload ath
+check_unload mac80211
+

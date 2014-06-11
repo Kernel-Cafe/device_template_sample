@@ -1,0 +1,6 @@
+/system/bin/loadrtl8192cu
+/system/bin/unloadrtl8192cu
+/system/lib/modules/rtlwifi.ko
+/system/lib/modules/rtl8192c-common.ko
+/system/lib/modules/rtl8192cu.ko
+/system/vendor/firmware/rtlwifi/rtl8192cufw.bin
